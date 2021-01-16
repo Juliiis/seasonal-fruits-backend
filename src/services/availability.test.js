@@ -35,4 +35,16 @@ describe('services/availability', () => {
             })
         })
     })
+    describe(getFruitsForMonth, () => {
+        describe('for month 8', () => {
+            const fruitIds = getFruitsForMonth(8).map(fruit => fruit.id)
+            it('should return apple and watermelon', () => {
+                expect(fruitIds.includes('apple')).toBe(true)
+                expect(fruitIds.includes('watermelon')).toBe(true)
+            })
+            it('should not return grape', () => { 
+               expect(fruitIds.includes('grape')).toBe(false)
+            })
+        })
+    })
 })
