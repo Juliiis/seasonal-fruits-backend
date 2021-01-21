@@ -1,6 +1,6 @@
 const express = require('express')
 const { getFruitsForMonth } = require('./services/availability')
-
+const { getFruitById } = require('./services/fruits')
 const app = express()
 
 app.get('/', (req, res) => {
@@ -20,19 +20,17 @@ app.get('/available-fruits', (req, res) => {
 app.get('/fruit', (req, res) => {
     const { id } = req.query
 
-    if (id === 'banana') {
-        return res.json({
-            "id": "banana",
-            "name": "Banana",
-            "freezed": false,
-            "months": [1, 3],
-            "properties": [
-                "Good for your momma"
-            ]
-        })
+    if (!id) {
+        return res.status(400).send('You need to tell me ?id=') 
     }
 
-    return res.status(404).send()
+    const fruit = getFruitById(id)
+    
+    if (!fruit) {
+        return res.status(404).send()
+    }
+
+    return res.json(fruit)
 })
 
 app.listen(3001, () => {
