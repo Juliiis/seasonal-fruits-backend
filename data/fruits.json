@@ -1,31 +1,25 @@
 [
-    {
-        "id": "grape",
-        "name": "Grape",
-        "monthStart": 9,
-        "monthEnd": 1,
-        "properties": [
-            "You can make wine with them!"
-        ]
-    },
-    {
-        "id": "apple",
-        "name": "Apple",
-        "monthStart": 8,
-        "monthEnd": 11,
-        "freezedMonthStart": 12,
-        "freezedMonthEnd": 7,
-        "properties": [
-            "You can make cider with them!"
-        ]
-    },
-    {
-        "id": "watermelon",
-        "name": "Watermelon",
-        "monthStart": 6,
-        "monthEnd": 8,
-        "properties": [
-            "It's like water but tastier"
-        ]
-    }
+  {
+    "id": "grape",
+    "name": "Grape",
+    "monthStart": 9,
+    "monthEnd": 1,
+    "properties": ["You can make wine with them!"]
+  },
+  {
+    "id": "apple",
+    "name": "Apple",
+    "monthStart": 8,
+    "monthEnd": 11,
+    "freezedMonthStart": 12,
+    "freezedMonthEnd": 7,
+    "properties": ["You can make cider with them!"]
+  },
+  {
+    "id": "watermelon",
+    "name": "Watermelon",
+    "monthStart": 6,
+    "monthEnd": 8,
+    "properties": ["It's like water but tastier"]
+  }
 ]
