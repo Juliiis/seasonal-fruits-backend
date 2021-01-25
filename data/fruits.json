@@ -21,5 +21,103 @@
     "monthStart": 6,
     "monthEnd": 8,
     "properties": ["It's like water but tastier"]
+  },
+  {
+    "id": "loquat",
+    "name": "Loquat",
+    "monthStart": 4,
+    "monthEnd": 6,
+    "properties": ["Information in construction"]
+  },
+  {
+    "id": "damascu",
+    "name": "Damascu",
+    "monthStart": 4,
+    "monthEnd": 8,
+    "properties": ["Information in construction"]
+  },
+  {
+    "id": "peach",
+    "name": "Peach",
+    "monthStart": 6,
+    "monthEnd": 10,
+    "properties": ["Information in construction"]
+  },
+  {
+    "id": "nectarine",
+    "name": "Nectarine",
+    "monthStart": 6,
+    "monthEnd": 9,
+    "properties": ["Information in construction"]
+  },
+  {
+    "id": "fig",
+    "name": "Fig",
+    "monthStart": 6,
+    "monthEnd": 11,
+    "properties": ["Information in construction"]
+  },
+  {
+    "id": "melon",
+    "name": "Melon",
+    "monthStart": 6,
+    "monthEnd": 10,
+    "properties": ["Information in construction"]
+  },
+  {
+    "id": "tangerine",
+    "name": "Tangerine",
+    "monthStart": 9,
+    "monthEnd": 2,
+    "properties": ["Information in construction"]
+  },
+  {
+    "id": "kiwi",
+    "name": "Kiwi",
+    "monthStart": 11,
+    "monthEnd": 12,
+    "properties": ["Information in construction"]
+  },
+  {
+    "id": "orange",
+    "name": "Orange",
+    "monthStart": 10,
+    "monthEnd": 6,
+    "properties": ["Information in construction"]
+  },
+  {
+    "id": "strawberries",
+    "name": "Strawberries",
+    "monthStart": 2,
+    "monthEnd": 7,
+    "properties": ["Information in construction"]
+  },
+  {
+    "id": "cherries",
+    "name": "Cherries",
+    "monthStart": 5,
+    "monthEnd": 7,
+    "properties": ["Information in construction"]
+  },
+  {
+    "id": "plum",
+    "name": "Plum",
+    "monthStart": 4,
+    "monthEnd": 9,
+    "properties": ["Information in construction"]
+  },
+  {
+    "id": "summer pear",
+    "name": "Summer Pear",
+    "monthStart": 6,
+    "monthEnd": 8,
+    "properties": ["Information in construction"]
+  },
+  {
+    "id": "pear",
+    "name": "Pear",
+    "monthStart": 8,
+    "monthEnd": 10,
+    "properties": ["Information in construction"]
   }
 ]
